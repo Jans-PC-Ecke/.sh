@@ -3,7 +3,7 @@
 while true
 do
 
-if ping "192.168.0.68" -w 10; then
+if ping "IP-Von_Handy" -w 10; then
     # Wenn die MAC-Adresse gefunden wurde, ist das Gerät im Netzwerk erreichbar
 	 pkill motion
 	echo "		INAKTIV"
